@@ -32,7 +32,7 @@ editing processes, and difficulty scaling content production.
 ## Workflow Example
 
 ### 1. Input Submission
-Provides the outline, selects preferences (style, terminology, structure, SEO), and uploads custom dictionaries.
+Provides the outline, selects preferences (style, terminology, sentiment)
 
 ### 2. Outline Extraction Agent
 Extracts the outline and converts it to JSON format.
@@ -52,7 +52,7 @@ Optimizes the content for SEO by adding keywords, meta tags, and title tags.
 ### 7. Tone and Sentiment Analysis Agent
 Analyzes and adjusts the tone and sentiment to match user preferences.
 
-## 8. Coordinator Agent
+### 8. Coordinator Agent
 Manages the flow, ensures agents communicate effectively, and compiles the final content.
 
 

@@ -30,6 +30,15 @@ editing processes, and difficulty scaling content production.
 
 ![Screenshot 1](docs/systemdesign.png)
 
+## Workflow Example
+**Input Submission**: User provides the outline, selects preferences (style, terminology, structure, SEO), and uploads custom dictionaries.
+**Outline Extraction Agent**: Extracts the outline and converts it to JSON format.
+**Writing Style Agent**: Generates initial content based on the extracted outline and the selected writing style.
+**Terminology Agent**: Integrates industry-specific terms into the generated content.
+**Content Structure Agent**: Applies the selected content template to structure the blog.
+**SEO Optimization Agent**: Optimizes the content for SEO by adding keywords, meta tags, and title tags.
+**Tone and Sentiment Analysis Agent**: Analyzes and adjusts the tone and sentiment to match user preferences.
+**Coordinator Agent**: Manages the flow, ensures agents communicate effectively, and compiles the final content.
 
 ### Data Flow
 

@@ -28,8 +28,6 @@ editing processes, and difficulty scaling content production.
 
 ## System Design
 
-Here are some screenshots of the user interface:
-
 ![Screenshot 1](docs/systemdesign.png)
 
 

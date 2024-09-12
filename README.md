@@ -56,7 +56,7 @@ Analyzes and adjusts the tone and sentiment to match user preferences.
 Manages the flow, ensures agents communicate effectively, and compiles the final content.
 
 
-### Data Flow
+## Data Flow
 
 1. **User Request**: The user submits a blog outline and customization preferences via the user interface.
 2. **API Gateway**: The request is routed to the `Coordinator Agent`.

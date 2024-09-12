@@ -21,8 +21,7 @@ editing processes, and difficulty scaling content production.
 
 ## Features of the Proposed System Design
 
-### Scalability
-
+- **Scalability**
 - **Microservices Architecture**: Each AI component (agent) is a microservice
 - **Modularity**: Easily add, modify, or replace AI agents without impacting the overall system's functionality.
 
@@ -31,14 +30,31 @@ editing processes, and difficulty scaling content production.
 ![Screenshot 1](docs/systemdesign.png)
 
 ## Workflow Example
-**Input Submission**: User provides the outline, selects preferences (style, terminology, structure, SEO), and uploads custom dictionaries.
-**Outline Extraction Agent**: Extracts the outline and converts it to JSON format.
-**Writing Style Agent**: Generates initial content based on the extracted outline and the selected writing style.
-**Terminology Agent**: Integrates industry-specific terms into the generated content.
-**Content Structure Agent**: Applies the selected content template to structure the blog.
-**SEO Optimization Agent**: Optimizes the content for SEO by adding keywords, meta tags, and title tags.
-**Tone and Sentiment Analysis Agent**: Analyzes and adjusts the tone and sentiment to match user preferences.
-**Coordinator Agent**: Manages the flow, ensures agents communicate effectively, and compiles the final content.
+
+### 1. Input Submission
+Provides the outline, selects preferences (style, terminology, structure, SEO), and uploads custom dictionaries.
+
+### 2. Outline Extraction Agent
+Extracts the outline and converts it to JSON format.
+
+### 3. Writing Style Agent
+Generates initial content based on the extracted outline and the selected writing style.
+
+### 4. Terminology Agent
+Integrates industry-specific terms into the generated content.
+
+### 5. Content Structure Agent
+Applies the selected content template to structure the blog.
+
+### 6. SEO Optimization Agent
+Optimizes the content for SEO by adding keywords, meta tags, and title tags.
+
+### 7. Tone and Sentiment Analysis Agent
+Analyzes and adjusts the tone and sentiment to match user preferences.
+
+## 8. Coordinator Agent
+Manages the flow, ensures agents communicate effectively, and compiles the final content.
+
 
 ### Data Flow
 
